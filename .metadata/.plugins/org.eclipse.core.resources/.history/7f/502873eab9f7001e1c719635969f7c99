@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>
+		주문자명 1 : ${paramValues.customer[0] } <br>
+		주문자명 2 : ${paramValues.customer[1] } <br>
+		주문자명 3 : ${paramValues.customer[2] } <br>
+		주문자명 4 : ${paramValues.customer[3] } <br>
+		주문자명 5 : ${paramValues.customer[4] } <br>
+	</h3>
+</body>
+</html>

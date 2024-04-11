@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>
+	<c:forEach items="paramValues.customer" var="food" varStatus="i">
+		주문명 ${ } : ${paramValues.customer[0] } <br>
+		주문명 2 : ${paramValues.customer[1] } <br>
+		주문명 3 : ${paramValues.customer[2] } <br>
+		주문명 4 : ${paramValues.customer[3] } <br>
+		주문명 5 : ${paramValues.customer[4] } <br>
+	</c:forEach>
+	</h3>
+</body>
+</html>
